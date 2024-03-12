@@ -112,15 +112,15 @@ const Crud = () => {
         <div className="form">
           <form onSubmit={senddata}>
             <p className="label">Name</p>
-            <input onChange={inputHandle} value={formData.fname} name="fname" type="text" />
+            <input onChange={inputHandle} value={formData.fname} placeholder="Enter your First name .." name="fname" type="text" />
             <p className="label">LastName</p>
-            <input onChange={inputHandle} value={formData.lname} name="lname" type="text" />
+            <input onChange={inputHandle} value={formData.lname} placeholder="Enter your Last name .." name="lname" type="text" />
             <p className="label">Email</p>
-            <input onChange={inputHandle} value={formData.email} name="email" type="email" />
+            <input onChange={inputHandle} value={formData.email} placeholder="Enter your Email  .." name="email" type="email" />
             <p className="label">Mobile No.</p>
-            <input onChange={inputHandle} value={formData.mnumber} name="mnumber" type="number" />
+            <input onChange={inputHandle} value={formData.mnumber} placeholder="Enter your Mobile no .." name="mnumber" type="number" />
             <p className="label">Project</p>
-            <input onChange={inputHandle} value={formData.project} name="project" type="text" />
+            <input onChange={inputHandle} value={formData.project} placeholder="Enter your Project name .." name="project" type="text" />
             <button className="btn" type="submit" >Create Client</button>
           </form>
         </div>
